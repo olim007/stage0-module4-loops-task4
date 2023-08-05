@@ -11,7 +11,7 @@ class SkippingThirdTest extends BaseIOTest {
 
         skippingThird.printUntilButThird(7);
 
-        assertOutEquals("1\n2\n4\n5\n7\n");
+        assertOutEquals("1\n2\n4\n5\n6\n7\n");
     }
 
     @Test
